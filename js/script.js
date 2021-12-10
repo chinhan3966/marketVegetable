@@ -99,7 +99,7 @@ AddProduct.forEach(function(list) {
     const nameProduct = boxElement.querySelector('h3').innerText
     const priceProduct = boxElement.querySelector('.price').innerText
     addProducts(imgProduct, nameProduct, priceProduct)
-    activeCart.classList.add('active')
+    //activeCart.classList.add('active')
     // var arrayProduct = new Array()
     // var sp = new Array(imgProduct, nameProduct, priceProduct)
     // arrayProduct.push(sp)
